@@ -10,7 +10,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class LoginSteps extends BaseClass {
-
+//This is my test case Written by shiva
 	@Given("User navigated to the Application")
 	public void user_navigated_to_the_application() {
 		openBrowserAndLaunchApplication("chrome");
