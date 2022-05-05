@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9155124300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User navigated to the Application",
+            "match": {
+              "location": "StepsDefinitions.LoginSteps.user_navigated_to_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-05T03:04:05.199Z",
+        "line": 10,
+        "name": "Valid admin login",
+        "description": "",
+        "id": "login-feature;valid-admin-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2063635000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user valid \"Admin\" and valid \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepsDefinitions.LoginSteps.user_valid_and_valid(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5524337500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "StepsDefinitions.LoginSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1069383700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is successfully logged in",
+            "match": {
+              "location": "StepsDefinitions.LoginSteps.user_is_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke1"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]

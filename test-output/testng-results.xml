@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-04T08:29:09 IST" name="Default suite" finished-at="2022-05-04T08:29:37 IST" duration-ms="28341">
+    <groups>
+    </groups>
+    <test started-at="2022-05-04T08:29:09 IST" name="Default test" finished-at="2022-05-04T08:29:37 IST" duration-ms="28341">
+      <class name="testCases.LoginTest">
+        <test-method signature="dataDrivenTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@5552768b]" started-at="2022-05-04T08:29:10 IST" name="dataDrivenTest" data-provider="testDataFromExcel" finished-at="2022-05-04T08:29:21 IST" duration-ms="10573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[InvalidPasword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenTest -->
+        <test-method signature="dataDrivenTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@5552768b]" started-at="2022-05-04T08:29:21 IST" name="dataDrivenTest" data-provider="testDataFromExcel" finished-at="2022-05-04T08:29:29 IST" duration-ms="7922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenTest -->
+        <test-method signature="dataDrivenTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTest@5552768b]" started-at="2022-05-04T08:29:29 IST" name="dataDrivenTest" data-provider="testDataFromExcel" finished-at="2022-05-04T08:29:37 IST" duration-ms="8305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[InvalidPasword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenTest -->
+      </class> <!-- testCases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
